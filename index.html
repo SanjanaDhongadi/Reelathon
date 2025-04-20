@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REELATHON 2025</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(120deg, #1e1e2f, #121212);
+        color: #f5f5f5;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Orbitron", sans-serif;
+      }
+      .reveal {
+        opacity: 1; /* Ensure visibility */
+        transform: translateY(0); /* Remove initial translation */
+        transition: all 0.5s ease; /* Shorten transition time */
+      }
+      .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      p,
+      li,
+      a {
+        color: #e0e0e0;
+      }
+      .bg-gradient-custom {
+        background: linear-gradient(120deg, #2b2b3d, #1e1e2f);
+      }
+      .bg-light-overlay {
+        background: linear-gradient(
+          120deg,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.5)
+        );
+      }
+      .text-light {
+        color: #e0e0e0;
+      }
+      .bg-dark-overlay {
+        background: rgba(0, 0, 0, 0.8);
+      }
+    </style>
+  </head>
+  <body class="text-white">
+    <!-- Hero Section -->
+    <div class="relative">
+      <img alt="" class="w-full h-screen object-cover" />
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-black/80 to-black/60 flex flex-col items-center justify-center text-center px-4"
+      >
+        <h1
+          class="text-6xl font-extrabold text-yellow-400 drop-shadow-lg mb-4 animate-pulse"
+        >
+          REELATHON 2025
+        </h1>
+        <p class="text-2xl mb-6 max-w-xl text-white">
+          🎬 An Ad-Reel Making Competition |
+          <span class="text-pink-400">April 25</span> |
+          <span class="text-pink-400">1:00 PM</span> |
+          <span class="text-pink-400">KLE Tech Auditorium</span>
+        </p>
+        <div class="flex gap-4 flex-wrap justify-center">
+          <a
+            href="https://forms.gle/1U7tWGAzevLLwkF56"
+            class="bg-yellow-400 text-black font-bold py-2 px-6 rounded-full shadow-lg hover:bg-yellow-300 transition"
+            >🎟 Register Now</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="p-12 text-center reveal bg-light-overlay">
+      <h2 class="text-4xl font-bold text-yellow-300 mb-4">
+        🎯 About the Event
+      </h2>
+      <p class="max-w-4xl mx-auto text-lg">
+        REELATHON 2025 is where innovation meets filmmaking. Organized by
+        <span class="text-pink-400 font-semibold">MAKE IN BVB</span>, this event
+        invites passionate teams to create engaging short-form ads that inspire,
+        influence, and entertain.
+      </p>
+    </section>
+
+    <!-- Event Format -->
+    <section class="p-12 bg-gray-800 text-center reveal">
+      <h2 class="text-4xl font-bold text-yellow-300 mb-8">🎬 Event Format</h2>
+      <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div class="bg-gray-700 p-6 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-semibold text-pink-400 mb-2">🔹 Round 1</h3>
+          <p>
+            30-sec reel on an assigned product. You’ve got
+            <strong>2 hours</strong> to showcase creativity, script, and angles.
+          </p>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-semibold text-pink-400 mb-2">🔸 Round 2</h3>
+          <p>
+            90-sec brand collaboration reel with 1 day to deliver. Emphasis on
+            <strong>storytelling</strong> and <strong>emotional appeal</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Judging Criteria -->
+    <section class="p-12 text-center reveal bg-dark-overlay">
+      <h2 class="text-4xl font-bold text-yellow-300 mb-6">
+        🧑‍⚖ Judging Criteria
+      </h2>
+      <ul class="text-lg space-y-2">
+        <li>📝 <strong>Content:</strong> 40%</li>
+        <li>🎥 <strong>Technical Skill:</strong> 30%</li>
+        <li>💥 <strong>Impact:</strong> 30%</li>
+      </ul>
+    </section>
+
+    <!-- Prizes -->
+    <section class="p-12 bg-gray-800 text-center reveal">
+      <h2 class="text-4xl font-bold text-yellow-300 mb-4">🏆 Prizes & Perks</h2>
+      <p class="text-2xl">
+        ₹20,000 Prize Pool 💰 + Certificates 🏅 for All Participants
+      </p>
+    </section>
+
+    <!-- Timeline -->
+    <section class="p-12 text-center reveal bg-light-overlay">
+      <h2 class="text-4xl font-bold text-yellow-300 mb-6">🗓 Event Timeline</h2>
+      <ul class="text-lg space-y-2">
+        <li>📅 Apr 23 – Registrations Close</li>
+        <li>🎬 Apr 25 – Round 1 at 1 PM</li>
+        <li>📢 Apr 26 – Results Online</li>
+        <li>🎞 Apr 26–27 – Round 2</li>
+        <li>🏅 Apr 28 – Award Ceremony</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="p-12 bg-gray-800 text-center reveal">
+      <h2 class="text-4xl font-bold text-yellow-300 mb-6">📞 Contact Us</h2>
+      <p class="text-lg">📲 Mayur – 74832 32936</p>
+      <p class="text-lg">📲 Pratham – 63602 84369</p>
+      <div class="mt-6 flex justify-center gap-8 text-3xl">
+        <a href="https://kletech.ac.in" target="_blank">🌐</a>
+        <a href="https://instagram.com/makeinbvb" target="_blank">📸</a>
+        <a href="https://linkedin.com/in/makeinbvb" target="_blank">🔗</a>
+      </div>
+    </section>
+
+    <footer class="bg-black text-gray-400 text-center py-6 text-sm">
+      © 2025 MAKE IN BVB | REELATHON
+    </footer>
+
+    <script>
+      ScrollReveal().reveal(".reveal", {
+        delay: 200,
+        distance: "40px",
+        origin: "bottom",
+        interval: 200,
+      });
+    </script>
+  </body>
+</html>
